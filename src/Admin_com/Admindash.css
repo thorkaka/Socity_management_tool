@@ -1,0 +1,145 @@
+/* .members{
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    gap: 20px;
+}
+table th{
+    padding-left: 25px;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+
+    font-size: xx-large;
+}
+
+.addbtn{
+    width: 50px;
+    height: 40px;
+}
+table td{
+    
+    padding-left: 85px;
+    font-size: xx-large;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    
+
+
+} */
+
+/* table th{
+    
+    border-bottom: 1px solid black;
+} */
+
+/* .content-table{
+    border-collapse: collapse;
+
+    margin: 5rem;
+    font-size: 2rem;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0,0,0,0.15);
+
+}
+.content-table th{
+    background-color: #19B3D3;
+    color: #fff;
+    text-align: left;
+    font-weight: 900;
+    padding: 15px 15px;  
+}
+
+.content-table td{
+    padding: 20px 20px;
+    padding-left: 110px;
+    margin-left: 12rem;
+}
+.content-table tr{
+    border-bottom:1px solid #dddddd ;
+    
+    
+} */
+
+/* .table-container {
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow-x: auto;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+  }
+  
+  .table th,
+  .table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #dddddd;
+  }
+  
+  .table th {
+    background-color: #007bff;
+    color: #ffffff;
+    font-weight: bold;
+  }
+  
+  .table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .table tr:hover {
+    background-color: #e9ecef;
+  }
+  
+  .table th:first-child,
+  .table td:first-child {
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+  }
+  
+  .table th:last-child,
+  .table td:last-child {
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+  }
+  
+   */
+
+   *{
+    margin :0px;
+    padding: 0px;
+}
+
+table{
+    width: 80%;
+    margin-left: 120px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.15);
+}
+thead,th{
+    font-size: x-large;
+    padding: 50px;
+    background-color: #19B3D3;
+    color: #fff;
+    font-weight: bold;
+}
+tbody, td{
+    /* margin-left: 120px; */
+    font-size:x-large;
+    font-weight:400;
+    text-align:center;
+    padding: 15px;
+}
+tbody,tr{
+  border-bottom:1px solid #dddddd ;
+
+}
+.table-info{
+    padding: 20px;
+    margin-top: 20px;
+}   

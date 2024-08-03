@@ -1,0 +1,32 @@
+
+.navi img{
+    height: 40px;
+}
+
+.navi .link{
+    /* height: 60px; */
+    /* width: 250px; */
+    box-sizing: border-box;
+    /* padding: 20px; */
+}
+
+
+
+.navi .link :hover{
+      background: #19B3D3;
+}
+
+.cards section{
+    cursor: pointer;
+    
+}
+
+.cards .c1:hover{
+    /* box-shadow: 5px 5px 10px  rgb(93, 2, 2); */
+    filter: drop-shadow(5px 5px 10px rgb(55, 53, 82));
+}
+
+.main{
+    background-image: linear-gradient(rgb(211, 203, 241),rgb(205, 232, 241));
+
+}
